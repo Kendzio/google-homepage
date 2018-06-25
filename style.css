@@ -27,6 +27,11 @@
 	border: none;
 	background-color: rgb(242, 242, 242);
 	color: rgb(34, 34, 34);
+	font-weight: 600;
+}
+
+.buttons input:hover {
+	border: 1px solid black;
 }
 
 .fbar {
@@ -85,4 +90,9 @@ li a {
 * {
 	font-family: "arial", sans-serif;
 	font-size: 14px;
+}
+
+.footer div, .above_footer {
+	padding-top: 10px;
+	padding-bottom: 2px;
 }
